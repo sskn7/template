@@ -1,4 +1,4 @@
-package com.diworksdev.temlate.util;
+package com.diworksdev.template.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -10,8 +10,8 @@ public class DBConnector {
 	private static String user="root";
 	private static String password="";
 
-	public Connection getConnection(); {
-		Connection con  =null;
+	public Connection getConnection() {
+		Connection con =null;
 
 		try {
 			Class.forName(driverName);

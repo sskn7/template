@@ -5,4 +5,4 @@
  * @author User
  *
  */
-package com.diworksdev.temlate.util;
+package com.diworksdev.template.util;
