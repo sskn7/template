@@ -22,7 +22,8 @@ body {
   line-height:1.6;
   letter-spacing:1px;
   font-family:Verdana,Helvetica,sans-serif;
-  font-size:#333;
+  font-size:12px;
+  color:#333;
   background:#fff;
 }
 
@@ -40,6 +41,12 @@ table{
 
 #header {
    width:100%;
+   height:80px;
+   background-color:black;
+}
+
+#main {
+   width:100%;
    height:500px;
    text-align:center;
 }
@@ -56,11 +63,12 @@ table{
 
 <body>
 
-<div id="main">
+<div id="header">
    <div id="pr">
-      <p>Login</p>
    </div>
+</div>
 
+<div id ="main">
    <div>
       <h3>商品を購入する際にはログインをお願いします。</h3>
       <s:form action="LoginAction">
@@ -80,7 +88,12 @@ table{
 
    </div>
 
-</div>/*main*/
+   <div id="footer">
+      <div id ="pr">
+      </div>
+   </div>
+
+</div>
 
 
 </body>
