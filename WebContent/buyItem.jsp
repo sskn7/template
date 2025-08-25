@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="s" uri="/strits-tags" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
-<meta name="keyword" content=""/>
+<meta name="keywords" content=""/>
 <title>BuyItem画面</title>
 
 <style type="text/css">
@@ -48,7 +48,7 @@ table{
    width:100%;
    height:80px;
    background-color:black;
-   claer:both;
+   clear:both;
 }
 </style>
 </head>
@@ -93,7 +93,7 @@ table{
                  </td>
                  <td>
                     <select name="stock">
-                       <option value="1" select="selected">1</option>
+                       <option value="1" selected="selected">1</option>
                        <option value="2">2</option>
                        <option value="3">3</option>
                        <option value="4">4</option>
