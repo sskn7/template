@@ -15,7 +15,7 @@ public class LoginAction {
 
 	public String execute() {
 		LoginDAO loginDAO = new LoginDAO();
-		LoginDTO loginDTo = new LoginDTO();
+		LoginDTO loginDTO = new LoginDTO();
 		BuyItemDAO buyItemDAO = new BuyItemDAO();
 
 		result = ERROR;

@@ -13,7 +13,7 @@ public class BuyItemDTO {
 	}
 
 
-	public String getItemPrce() {
+	public String getItemPrice() {
 		return itemPrice;
 	}
 	public void setItemPrice(String itemPrice) {

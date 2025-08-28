@@ -33,7 +33,7 @@ public class LoginDTO {
 	}
 
 
-	public boolean getLoginFig() {
+	public boolean getLoginFlg() {
 		return loginFlg;
 	}
 
