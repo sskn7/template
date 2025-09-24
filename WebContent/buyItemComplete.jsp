@@ -20,7 +20,7 @@ body {
    line-height:1.6;
    letter-spacing:1px;
    font-family:Verdana,Helvetica,sans-serif;
-   fint-size=12px;
+   font-size=12px;
    color:#333;
    background:#fff;
 }
@@ -33,13 +33,13 @@ table {
 /*========== ID LAYPUT ==========*/
 #top {
    width:780px;
-   margin:0 auto;
+   margin:30px auto;
    border:1px solid #333;
 }
 
 #header{
    width:100%;
-   height:500px;
+   height:80px;
    background-color:black;
 }
 
@@ -63,7 +63,10 @@ table {
       <div id="pr">
       </div>
    </div>
-
+   <div id="main">
+      <div id="top">
+         <p>BuyItemComplete</p>
+      </div>
    <div>
       <p>購入手続きが完了しました。</p>
       <div>
@@ -71,6 +74,7 @@ table {
          マイページ</a>
          <span>から購入履歴の確認が可能です</span>
       </div>
+   </div>
    </div>
 
    <div id="footer">
