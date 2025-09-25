@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import com.diworksdev.template.dto.MyPageDTO;
 import com.diworksdev.template.util.DBConnector;
 
-public class MyPgeDAO {
+public class MyPageDAO {
 	public MyPageDTO getMyPageUserInfo(String item_transaction_id, String user_master_id)
 	throws SQLException {
 		DBConnector dbConnector = new DBConnector();
