@@ -1,13 +1,16 @@
 package com.diworksdev.template.action;
 import java.util.Map;
 
+import org.apache.struts2.interceptor.SessionAware;
+
 import com.diworksdev.template.dao.BuyItemDAO;
 import com.diworksdev.template.dao.LoginDAO;
 import com.diworksdev.template.dto.BuyItemDTO;
 import com.diworksdev.template.dto.LoginDTO;
+import com.opensymphony.xwork2.ActionSupport;
 
 
-public class LoginAction {
+public class LoginAction extends ActionSupport implements SessionAware {
 	private String loginUserId;
 	private String loginPassword;
 	private String result;
