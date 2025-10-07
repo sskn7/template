@@ -33,11 +33,14 @@ create table user_buy_item_transaction(
     item_transaction_id int,
     total_price int,
     total_count int,
-    user_master_idvarchar(16),
+    user_master_id varchar(16),
     pay varchar(30),
     insert_date datetime,
-    delete_date datetime,
+    delete_date datetime
 );
 
-INSERT INTO item_info_transaction(item_name,item_pass,user_name)
+INSERT INTO item_info_transaction(item_name,item_price,item_stock)
+VALUES("ノートBook",100,50);
+
+INSERT INTO login_user_transaction(login_id,login_pass,user_name)
 VALUES("internous","internous01","test");

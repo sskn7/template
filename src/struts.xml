@@ -33,7 +33,8 @@
 
  <!-- UserCreateConfirmAction -->
     <action name="UserCreateConfirmAction" class ="com.diworksdev.template.action.UserCreateConfirmAction" method="execute">
-      <result name="success">UserCreateConfirmAction.jsp</result>
+      <result name="success">userCreateConfirm.jsp</result>
+      <result name="error">serCreate.jsp</result>
    </action>
 
  <!-- UserCreateCompleteAction -->
