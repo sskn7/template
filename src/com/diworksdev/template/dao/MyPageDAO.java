@@ -19,7 +19,7 @@ public class MyPageDAO {
 				+ "ubit.pay FROM user_buy_item_transaction "
 				+ "ubit LEFT JOIN item_info_transaction iit ON "
 				+ "ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND "
-				+ "ubit.user_master_id = ORDER BY ubit.insert_date DESC";
+				+ "ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
